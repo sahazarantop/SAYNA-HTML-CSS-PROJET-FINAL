@@ -1,0 +1,172 @@
+:root{
+    /* couleur */
+        --blanc: #fff;
+        --rouge: #c45959;
+        --gris: #474141;
+        --bleu: #2c2aa8;
+        --noir: #333333;
+        --noir1: rgb(0, 0, 0);
+}
+*{
+        margin: 0;
+        padding: 0;
+        font-family: 'Raleway', sans-serif;
+}
+/* couleur du page */
+/* color */
+.blanc{
+        color: var(--blanc);
+}
+.gris{
+        color: var(--gris);
+}
+.noir{
+        color: var(--noir);
+}
+.rouge{
+        color: var(--rouge);
+}
+
+/* background color */
+.bg-red{
+        background-color: var(--rouge);
+}
+.bg-gris{
+        background-color: var(--gris);
+}
+.bg-noir{
+        background-color: var(--gris);
+}
+.bg-blanc{
+        background-color: var(--blanc);
+}
+.bg-blue{
+        background-color: var(--bleu);
+}
+
+/* debut de style */
+nav , nav div{
+        display: flex;
+}
+
+a{
+        text-decoration: none;
+        color: var(--blanc);
+}
+
+.entete{
+        justify-content: space-between;
+        background-color: var(--rouge);
+}
+
+.centre-image , .flex1{
+        align-items: center;
+}
+
+.nom-du-page img{
+        width: 7vw;
+}
+
+.icon-navbar img{
+        width: 3vw;
+}
+
+/* formulaire */
+.formulaire{
+        width: 90%;
+        margin: 5% auto;
+        box-shadow: 0 0 15px var(--noir);
+}
+
+.form-entete{
+        display: flex;
+        text-align: center;
+        margin: auto;
+        width: 15vw;        
+}
+
+.formulaire .form-entete img{
+        width: 5vw;
+}
+
+.flex , .flex1{
+        display: flex;
+}
+
+.bord{
+        width: 30vw;
+        padding: 1em;
+        border: 1px solid var(--gris);
+        margin: 1em auto;
+        text-align: center;
+}
+.bord span{
+        color: var(--bleu);
+}
+
+.text-center{
+        align-items: center;
+}
+
+.text-center img{
+        width: 5vw;
+}
+
+.right{
+        float: right;
+}
+
+.image img{
+        width: 5vw;
+}
+
+/* localisation */
+.iframe{
+        margin: 3vw;
+}
+iframe{
+        width: 90vw;
+}
+.apply{
+        width: 30%;
+        text-align: center;
+        justify-items: right;
+}
+
+/* pied de la page */
+.border{
+        border-top: 5px solid var(--rouge);
+        border-bottom: 5px solid var(--rouge);
+        padding: 1em;
+        margin: 1em auto;
+}
+
+.bord-position{
+        border: 1px solid var(--blanc) ;
+        border-radius: 50%;
+}
+/* +  z-index + */
+
+.bord-position img{
+        width: 5vw;
+}
+
+/* nous contacter */
+.nous-contacter{
+        border: 8px solid green;
+}
+.nous-contacter div {
+        border: 8px solid green;
+        margin: auto;
+        width: 100%;
+        text-align: center;
+}
+
+/* footer */
+footer{
+        justify-content: space-between;
+}
+
+footer img{
+        width: 5vw;
+}

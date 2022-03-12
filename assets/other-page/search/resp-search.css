@@ -1,0 +1,53 @@
+@media screen and (max-width:600px) {
+        .translate{
+                margin: auto;
+                transform: translate(25%);
+        }
+        .translate div{
+                margin: 0 3%;
+        }
+        .icon-navbar p{
+                display: none;
+        }
+        nav{
+                display: block;
+        }
+        .flex{
+                display: block;
+        }
+        .event{
+                display: block;
+                text-align: center;
+        }
+        .center{
+                margin: auto;
+        }
+        .web{
+                display: none;
+        }
+        .icon-navbar p{
+                display: none;
+        }
+        nav{
+                display: block;
+                width: 75%;
+                margin: auto;
+        }
+        .translate{
+                margin: auto;
+                transform: translate(25%);
+        }
+        .translate div{
+                margin: 0 3%;
+        }
+        .icon-navbar p{
+                display: none;
+        }
+        nav{
+                display: block;
+        }
+        .remplir div input{
+                width: 60vw;
+                height: 25px;
+        }
+}

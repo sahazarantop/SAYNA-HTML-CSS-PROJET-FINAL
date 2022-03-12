@@ -1,0 +1,77 @@
+:root{
+        --blanc: #fff;
+        --rouge: #d35649;/*primary-color*/
+        --gris: #98a5a5;/*primary-gray*/
+        --bleu: #509bd7;/*primary-blue*/
+        --noir: rgb(0, 0, 0);
+        --noir1: #1f1f1f;
+}
+
+@media screen and (max-width:600px) {
+
+        .translate{
+                margin: auto;
+                transform: translate(25%);
+        }
+        .translate div{
+                margin: 0 3%;
+        }
+        .icon-navbar p{
+                display: none;
+        }
+        nav{
+                display: block;
+        }
+        .flex{
+                display: block;
+        }
+        .event{
+                display: block;
+                text-align: center;
+        }
+        .center{
+                margin: auto;
+        }
+        .web{
+                display: none;
+        }
+        .bg-img1{
+                background-image: url(../../Assets/Images/group-4.jpg);
+                background-size: cover;
+                height: 250px;
+                color: var(--blanc);
+                border-radius: 2em;
+                width: 90%;
+                margin: auto;
+        }
+        .bg-rouge{
+                background-color: var(--rouge);
+                padding: 1em;
+        }
+        .bg-img2{
+                background-image: url(../../Assets/Images/group-2.jpg);
+                background-size: cover;
+                height: 250px;
+                color: var(--blanc);
+                border-radius: 2em;
+                width: 90%;
+                margin: auto;
+        }
+        .bg-bleu{
+                background-color: var(--bleu);
+                padding: 1em;
+        }
+        .bg-img3{
+                background-image: url(../../Assets/Images/group-3.jpg);
+                background-size: cover;
+                height: 250px;
+                color: var(--gris);
+                border-radius: 2em;
+                width: 90%;
+                margin: auto;
+        }
+        .bg-gris{
+                background-color: var(--noir);
+                padding: 1em;
+        }
+}
